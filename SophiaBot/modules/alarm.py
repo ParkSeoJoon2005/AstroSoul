@@ -131,9 +131,11 @@ file_help = file_help.replace(".py", "")
 file_helpo = file_help.replace("_", " ")
 
 __help__ = """
+⚊❮❮❮❮ ｢**HELP FOR Alarm⏰ MODULE** 」❯❯❯❯⚊
+
  - /setalarm <(date) (time)|zone|reason>: sets a alarm/reminder 
 **Syntax:** `/setalarm 01/01/2000 10:00:00 AM | America/New_York | breakfast`
-**NOTE:** Please turn on notifications for @SophiaSLBot otherwise you will not get notification for the alarm !
+**NOTE:** Please turn on notifications for Astro Soul otherwise you will not get notification for the alarm !
 """
 
-__mod_name__ = "Alarm"
+__mod_name__ = "Alarm⏰"
