@@ -74,7 +74,14 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hola👋! My name is *Sophia*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
+PM_START_TEXT = """ᴀʟᴏʜᴀ ʜᴜᴍᴀɴꜱ[✌️](https://telegra.ph/file/1e8cbf4b8c9711ccf299d.jpg)
+
+✨ɪ'ᴍ ᴛʜᴇ ꜱᴏᴜʟ ᴍᴀᴛᴇ ᴏꜰ ᴀᴜʀᴏʀᴀ
+✨ɪ'ᴍ ᴡɪʟʟ ᴘʀᴏᴛᴇᴄᴛ ᴀɴᴅ ʜᴇʟᴘ ʜᴇʀ
+✨ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀɴᴅ ᴇꜰꜰᴇᴄᴛɪᴠᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ᴛᴏ ᴄᴜꜱᴛᴀᴍɪᴢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴇᴀꜱɪʟʏ
+
+©The Aurora Project
+More At [ᴛʜᴇ ᴀᴜʀᴏʀᴀ ᴘʀᴏᴊᴇᴄᴛ](https://t.me/TheAuroraProject)"""
 
 STICKERS = (
       "CAACAgUAAxkBAAEDD25hZOz09tkvRUTLv9gmUqwWAbMGgAACygMAAs6cKFeVmeOotqWsYyEE",
