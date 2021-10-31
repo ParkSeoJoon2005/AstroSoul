@@ -74,12 +74,16 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there 👋! My name is *Sophia*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
+PM_START_TEXT = """Hola👋! My name is *Sophia*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
 
 STICKERS = (
-      "CAACAgUAAx0CTpRfGwACF41hMfagTfWdHNFici1VtOCQVVNYmgACgh8AAsZRxhU6tKJa_ySnnCAE",
-      "CAACAgUAAx0CTpRfGwACF5phMfi5vgKwQFg6KuzHiEc79QFT0QACCR4AAsZRxhVu32VqEb3_1SAE",
-      "CAACAgUAAx0CTpRfGwACGIBhQcGJDHuuXsU5el3I86SEx3nTpgAC2R8AAsZRxhUpEe6EcVukQCAE",
+      "CAACAgUAAxkBAAEDD25hZOz09tkvRUTLv9gmUqwWAbMGgAACygMAAs6cKFeVmeOotqWsYyEE",
+      "CAACAgQAAxkBAAEDMWRhfm0RGrD90huYKqBUX7Khmu0MBQACbQgAAhI40VH51AABGZuwl74hBA",
+      "CAACAgEAAxkBAAEDMWZhfm0s2gu97NLR-ElAcOC6lo71tQAC2AQAAlEpDTl6lCSRJtHB-SEE",
+      "CAACAgUAAxkBAAEDMWphfm12HwgLT0OfB3xiMYR6M72w6AACCgIAAujPAVbw46ylrYS-9yEE",
+      "CAACAgUAAxkBAAEDMWxhfm17ZR4y2NP10MZMvxXc7i8O1QACJwMAAtHSEFYL-KSuqQHSESEE",
+      "CAACAgUAAxkBAAEDMW5hfm2L8uG0MM8ygJ4PQ6o0qXWvEgACXAMAAhRKkVX5wxt2gDCTcCEE",
+      "CAACAgQAAxkBAAEDMXBhfm2VWEqBc5zMKg_6NLf5bMW5ygACvQ0AArN0uVMnThDLsReR3iEE",
 )    
 
 
