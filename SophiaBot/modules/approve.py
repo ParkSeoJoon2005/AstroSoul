@@ -196,6 +196,8 @@ def unapproveall_btn(update: Update, context: CallbackContext):
 
 
 __help__ = """
+⚊❮❮❮❮ ｢**HELP FOR ✔️Approves MODULE** 」❯❯❯❯⚊
+
 Sometimes, you might trust a user not to send unwanted content.
 Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
 That's what approvals are for - approve of trustworthy users to allow them to send 
@@ -222,6 +224,6 @@ dispatcher.add_handler(APPROVAL)
 dispatcher.add_handler(UNAPPROVEALL)
 dispatcher.add_handler(UNAPPROVEALL_BTN)
 
-__mod_name__ = "Approvals"
+__mod_name__ = "✔️Approvals"
 __command_list__ = ["approve", "unapprove", "approved", "approval"]
 __handlers__ = [APPROVE, DISAPPROVE, APPROVED, APPROVAL]
