@@ -553,6 +553,9 @@ def kayo(update: Update, context: CallbackContext):
 
 
 __help__ = """
+
+⚊❮❮❮❮ ｢**HELP FOR Anime🇯🇵 MODULE** 」❯❯❯❯⚊
+
 Get information about anime, manga or characters from [AniList](anilist.co).
 *Available commands:*
  • `/anime <anime>`*:* returns information about the anime.
@@ -586,7 +589,7 @@ dispatcher.add_handler(KAIZOKU_SEARCH_HANDLER)
 dispatcher.add_handler(KAYO_SEARCH_HANDLER)
 dispatcher.add_handler(UPCOMING_HANDLER)
 
-__mod_name__ = "Anime"
+__mod_name__ = "Anime🇯🇵"
 __command_list__ = [
     "anime", "manga", "character", "user", "upcoming", "kaizoku", "airing",
     "kayo"
