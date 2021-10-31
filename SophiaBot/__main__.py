@@ -96,27 +96,27 @@ STICKERS = (
 
 buttons = [
     [
-        InlineKeyboardButton(text=" Commands Help ❓", callback_data="help_back"),
+        InlineKeyboardButton(text=❓ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="Info & About 🙋‍", callback_data="source_"),
+        InlineKeyboardButton(text="🗞ᴍᴏʀᴇ ɪɴꜰᴏ", callback_data="source_"),
         InlineKeyboardButton(
-                  text="System Stats 💻", callback_data="stats_callback"
+                  text="⚽ꜱᴛᴀᴛꜱ", callback_data="stats_callback"
         ),
     ],
     [
-        InlineKeyboardButton(text=" Sophia News 🙋‍♀️ ", url=f"https://t.me/SophiaUpdates"),
-        InlineKeyboardButton(text=" Support Group 💬 ", url=f"https://t.me/SophiaSupport_Official"),
+        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ🇱🇰", url=f"https://t.me/boy_alone_in_universe"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Andromeda_telescopes"),
     ],
     [
-        InlineKeyboardButton(text="➕ Add Sophia to your Group ➕", url="t.me/SophiaSLBot?startgroup=true"),   
+        InlineKeyboardButton(text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/TheAstrosoulbot?startgroup=true"),   
     ],
 ]
 
 HELP_STRINGS = """
 ✘✘✘ 𝗛𝗲𝗹𝗽𝗳𝘂𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 ✘✘✘
 
-Every possibility of Sophia is documentated here
+Every possibility of Astro Soul is documentated here
 Click buttons to get help
 """
 
