@@ -96,7 +96,7 @@ STICKERS = (
 
 buttons = [
     [
-        InlineKeyboardButton(text=❓ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
+        InlineKeyboardButton(text="❓ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(text="🗞ᴍᴏʀᴇ ɪɴꜰᴏ", callback_data="source_"),
