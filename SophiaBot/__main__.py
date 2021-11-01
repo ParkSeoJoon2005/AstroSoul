@@ -233,7 +233,7 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_text("ᴀʟᴏʜᴀ[🌠](https://telegra.ph/file/24f53325c73f0ae72223c.jpg)ᴀꜱᴛʀ ꜱᴏᴜʟ ɪꜱ ʜᴇʀᴇ! PM me if you have any questions how to use me!")
+        update.effective_message.reply_text("ᴀʟᴏʜᴀ[✨](https://telegra.ph/file/24f53325c73f0ae72223c.jpg)\n\nᴀꜱᴛʀ ꜱᴏᴜʟ ɪꜱ ʜᴇʀᴇ! PM me if you have any questions how to use me!")
 
 
 def error_handler(update, context):
@@ -812,7 +812,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm Online Now! 💫 ")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm Online Now!😹")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to @SophiaSupport_Official, go and check!"
