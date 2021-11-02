@@ -233,7 +233,7 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_text("ᴀʟᴏʜᴀ[✨](https://telegra.ph/file/24f53325c73f0ae72223c.jpg)ᴀꜱᴛʀ ꜱᴏᴜʟ ɪꜱ ʜᴇʀᴇ! PM me if you have any questions how to use me!")
+        update.effective_message.reply_text("ᴀʟᴏʜᴀ[✨](https://telegra.ph/file/24f53325c73f0ae72223c.jpg) ᴀꜱᴛʀᴏ ꜱᴏᴜʟ ɪꜱ ʜᴇʀᴇ! PM me if you have any questions how to use me!")
 
 
 def error_handler(update, context):
@@ -308,7 +308,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "⚊❮❮❮❮ ｢HELP FOR  *{}*  MODULE[☘️](https://telegra.ph/file/36fdb173afe664d96b058.jpg) 」❯❯❯❯⚊\n".format(
+                "⚊❮❮❮❮ ｢HELP FOR  *{}*  MODULE [☘️](https://telegra.ph/file/36fdb173afe664d96b058.jpg) 」❯❯❯❯⚊\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -364,13 +364,14 @@ def sophia_about_callback(update, context):
     query = update.callback_query
     if query.data == "sophia_":
         query.message.edit_text(
-            text=""" My name is *Sophia*, I have been written with Pyrogram and Telethon.. I'm online since 10 June 2021 and is constantly updated!
+            text=""" My name is *Astro Soul*, I have been written with Pyrogram and Telethon.. I'm online since 23 sep 2021 and is constantly updated!
 *Bot Version: 3.0*
 \n*Bot Developers:*
+-  Me
 -  @dihanrandila
 -  @InukaASiTH
-\n* Updates Channel:* @SophiaUpdates
-* Support Chat:* @SophiaSupport_Official
+\n* Updates Channel:* @Theauroraproject
+* Support Chat:* @Andromeda_telescopes
                  \n\n* And finally special thanks of gratitude to all my users who relied on me for managing their groups, I hope you will always like me; My developers are constantly working to improve me!
                  \n\n *Licensed under the GNU Affero General Public Lisence v3.0*
                  \n© 2020 - 2021 @SophiaSLBot. All Rights Reserved """,
@@ -459,8 +460,8 @@ def sophia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support Group", url="t.me/dihan_official"),
-                    InlineKeyboardButton(text="Updates Channel", url="t.me/dihanofficial"),
+                    InlineKeyboardButton(text="Support Group", url="t.me/theauroraproject"),
+                    InlineKeyboardButton(text="Updates Channel", url="t.me/teauroraproject"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="sophia_basichelp"),
@@ -509,14 +510,14 @@ def Source_about_callback(update, context):
                 [
                   [
                     InlineKeyboardButton(text="🙋‍♀️ About Me", callback_data="sophia_"),
-                    InlineKeyboardButton(text="❓ Basic Help", callback_data="sophia_basichelp"),
+                    InlineKeyboardButton(text="❓Basic Help", callback_data="sophia_basichelp"),
                   ],
                   [
-                    InlineKeyboardButton(text=" Special Credits ❤ ", url=f"https://telegra.ph/Special-Credits-08-21"),
+                    InlineKeyboardButton(text=" Special Credits❤", url=f"https://telegra.ph/Special-Credits-08-21"),
                     InlineKeyboardButton(text="Terms And Conditions 📄 ", url=f"https://telegra.ph/Terms-and-Conditions-08-21"),
                   ],
                   [
-                    InlineKeyboardButton(text="💾 Source Code", url=f"https://github.com/dihanofficial/SophiaBot"),
+                    InlineKeyboardButton(text="💾Source Code", url=f"https://github.com/dihanofficial/SophiaBot"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="source_back")
