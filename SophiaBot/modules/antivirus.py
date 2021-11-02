@@ -130,7 +130,7 @@ file_help = file_help.replace(".py", "")
 file_helpo = file_help.replace("_", " ")
 
 __help__ = """
-⚊❮❮❮❮ ｢**HELP FOR  Virus Scan🦠  MODULE** 」❯❯❯❯⚊
+
 
  - /scanit: Scan a file for virus (MAX SIZE = 3MB)
 
