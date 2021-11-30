@@ -74,8 +74,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ᴀʟᴏʜᴀ ʜᴜᴍᴀɴꜱ[✌️](https://telegra.ph/file/1e8cbf4b8c9711ccf299d.jpg)
-
+PM_START_TEXT = """ᴀʟᴏʜᴀ ʜᴜᴍᴀɴꜱ[✌️](https://telegra.ph/file/2e3af31d973a12994ebe7.jpg)
 ✨ɪ'ᴍ ᴛʜᴇ ꜱᴏᴜʟ ᴍᴀᴛᴇ ᴏꜰ ᴀᴜʀᴏʀᴀ
 ✨ɪ'ᴍ ᴡɪʟʟ ᴘʀᴏᴛᴇᴄᴛ ᴀɴᴅ ʜᴇʟᴘ ʜᴇʀ
 ✨ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀɴᴅ ᴇꜰꜰᴇᴄᴛɪᴠᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ᴛᴏ ᴄᴜꜱᴛᴀᴍɪᴢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴇᴀꜱɪʟʏ
@@ -233,7 +232,7 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_text("ᴀʟᴏʜᴀ[✨](https://telegra.ph/file/24f53325c73f0ae72223c.jpg) ᴀꜱᴛʀᴏ ꜱᴏᴜʟ ɪꜱ ʜᴇʀᴇ! PM me if you have any questions how to use me!")
+        update.effective_message.reply_text(" PM me if you have any questions how to use me!")
 
 
 def error_handler(update, context):
